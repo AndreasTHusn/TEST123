@@ -11,6 +11,7 @@ namespace forelesning_13._02._2019
     {
         static void SkrivTid(object kilde, ElapsedEventArgs argument)
         {
+            int i = 2;
             Console.WriteLine(argument.SignalTime);
         }
 
